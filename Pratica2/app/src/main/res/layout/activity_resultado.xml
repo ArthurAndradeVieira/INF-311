@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome: " />
+
+    <TextView
+        android:id="@+id/textViewIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Idade: " />
+
+    <TextView
+        android:id="@+id/textViewPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peso: " />
+
+    <TextView
+        android:id="@+id/textViewAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Altura: " />
+
+    <TextView
+        android:id="@+id/textViewIMC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMC: " />
+
+    <TextView
+        android:id="@+id/textViewClassificacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Classificação: " />
+
+    <Button
+        android:id="@+id/buttonNovoCalculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Realizar Novo Cálculo" />
+</LinearLayout>
